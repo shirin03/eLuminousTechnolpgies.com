@@ -1,0 +1,35 @@
+const GlobalStyleThemes = {
+  media: {
+    deskstop1600: "1600px",
+    deskstop1440: "1440px",
+    ipad1199: "1199px",
+    ipad991: "991px",
+    mobile767: "767px",
+    mobile640: "640px",
+    mobile575: "575px",
+    mobile480: "480px",
+  },
+  fw: {
+    nine: 900,
+    eight: 800,
+    seven: 700,
+    six: 600,
+    five: 500,
+    four: 400,
+    three: 300,
+    two: 200,
+    one: 100,
+  },
+  colors: {
+    white: ["255, 255, 255"],
+    blue: ["33, 102, 243"],
+    grey: ["241, 241, 241"],
+    red: ["223, 46, 49"],
+    black: ["0, 0, 0"],
+    black2: ["51, 51, 51"],
+    black3: ["117, 117, 117"],
+    blackTurmeric: ["45, 62, 98"],
+    revelBlue: ["78, 104, 138"],
+  },
+};
+export default GlobalStyleThemes;
